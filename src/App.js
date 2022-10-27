@@ -108,8 +108,8 @@ function App() {
                                 }}
                             >
                                 {winner === "x | o"
-                                    ? "No Winner :/"
-                                    : "Win !! :)"}
+                                    ? "No Winner"
+                                    : "You Win !!"}
                             </motion.h2>
                             <motion.div
                                 initial={{ scale: 0 }}
